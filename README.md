@@ -1,12 +1,146 @@
-# React + Vite
+# Doctorly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Doctorly is a modern healthcare web application built using **React.js**, **React Router**, and **Tailwind CSS**. The platform allows patients to find doctors based on their specialization and book appointments, while doctors can register and manage their profiles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User Authentication (Login / Logout)
+- Create New Account
+- Doctor Registration
+- Doctor Search by Specialization
+- Appointment Booking
+- Responsive Design
+- React Router Based Navigation
+- Modern UI with Tailwind CSS
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router DOM
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## Available Specializations
+
+- Gynecologist
+- Orthologist
+- General Physician
+- Pediatrician
+- Dermatologist
+- And many more...
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](Screenshots/Home1.png)
+![Home Page](Screenshots/Home2.png)
+![Home Page](Screenshots/Home3.png)
+![Home Page](Screenshots/Home4.png)
+
+---
+
+### About Us Page
+
+![About Us](Screenshots/About1.png)
+![About Us](Screenshots/About2.png)
+
+---
+
+### Contact Page
+
+![Contact Page](Screenshots/Contactus.png)
+
+---
+
+### Doctor List Page
+
+![Doctor List](Screenshots/Viewall.png)
+
+---
+
+### Profile
+
+![Dashboard](Screenshots/profile.png)
+
+---
+
+### Doctor Details
+
+![Doctor Details](Screenshots/Doctordetails.png)
+
+---
+
+### Create Account
+
+![Create Account](Screenshots/CreateAccount.png)
+
+---
+
+### Login Page
+
+![Login Page](Screenshots/Login.png)
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rajpandey738/Doctors-Appointment.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd doctorly
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```text
+Doctorly/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── routes/
+│   └── App.jsx
+│
+├── Screenshots/
+├── package.json
+└── README.md
+```
+
+---
+
+## Author
+
+**Ashutosh Pandey**
+
+Email: [rajpandey7060@gmail.com](mailto:rajpandey7060@gmail.com)
+
+---
+
+If you like this project, don't forget to give it a star on GitHub.
