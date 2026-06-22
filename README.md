@@ -65,7 +65,7 @@ Doctorly is a modern healthcare web application built using **React.js**, **Reac
 
 ### Profile
 
-![Dashboard](Screenshots/profile.png)
+![Profile](Screenshots/profile.png)
 
 ---
 
